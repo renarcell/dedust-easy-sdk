@@ -1,0 +1,1 @@
+export { WalletContracts } from './walletContracts.js';
