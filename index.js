@@ -1,6 +1,6 @@
 import { Address, toNano, TonClient4 } from "@ton/ton";
 import { mnemonicToPrivateKey } from "@ton/crypto";
-import { WalletContracts } from './data/index.js';
+import { WalletContracts, Addresses } from './data/index.js';
 import { FORWARD_FEE, FULL_FEE } from "./config/index.js";
 
 import {
@@ -123,4 +123,4 @@ class DedustEasySDK {
   }
 }
 
-export { DedustEasySDK }
+export { DedustEasySDK, Addresses }
